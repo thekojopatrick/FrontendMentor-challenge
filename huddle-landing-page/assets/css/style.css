@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", san-serif;
   color: #ffffff;
   justify-content: center;
-  background: top/contain no-repeat #674baf url(/assets/img/bg-mobile.svg); }
+  background: top/contain no-repeat #674baf url("../img/bg-mobile.svg"); }
 
 /*--Handles Header Section--*/
 header {
@@ -97,7 +97,7 @@ i:hover {
 @media screen and (min-width: 640px) {
   body {
     max-height: 100%;
-    background: center/cover no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+    background: center/cover no-repeat fixed #674baf url("../img/bg-desktop.svg"); }
   .main-content {
     display: flex;
     justify-content: space-between;
@@ -122,7 +122,7 @@ i:hover {
 
 @media screen and (width: 768px) and (orientation: portrait) {
   body {
-    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+    background: top/contain no-repeat fixed #674baf url("../img/bg-desktop.svg"); }
   .main-content {
     display: block;
     justify-content: space-between;
@@ -141,7 +141,7 @@ i:hover {
 
 @media screen and (width: 1024px) and (orientation: landscape) {
   body {
-    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+    background: top/contain no-repeat fixed #674baf url("../assets/img/bg-desktop.svg"); }
   .main-content {
     display: block;
     justify-content: space-between;
@@ -160,7 +160,7 @@ i:hover {
 
 @media screen and (width: 1024px) and (orientation: portrait) {
   body {
-    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+    background: top/contain no-repeat fixed #674baf url("../img/bg-desktop.svg"); }
   .main-content {
     display: block;
     justify-content: space-between;
@@ -179,7 +179,7 @@ i:hover {
 
 @media screen and (width: 1366px) and (orientation: landscape) {
   body {
-    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+    background: top/contain no-repeat fixed #674baf url("../img/bg-desktop.svg"); }
   .main-content {
     display: block;
     justify-content: space-between;
