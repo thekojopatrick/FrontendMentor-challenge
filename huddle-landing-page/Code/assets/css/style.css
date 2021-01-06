@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+/*Typography*/
+/*Primary Colors */
+html {
+  box-sizing: border-box;
+  font-size: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0 auto;
+  padding: 0; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  font-family: "Poppins", san-serif;
+  color: #ffffff;
+  justify-content: center;
+  background: top/contain no-repeat #674baf url(/assets/img/bg-mobile.svg); }
+
+/*--Handles Header Section--*/
+header {
+  margin: 10px 0 50px 0; }
+
+.logo {
+  height: 40px;
+  width: 150px; }
+
+/*--Handles Button--*/
+a {
+  text-decoration: none; }
+
+.btn {
+  background-color: #ffffff;
+  color: #674baf;
+  padding: 10px 70px;
+  font-family: "Open Sans", san-serif;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: color 1s;
+  border-radius: 50px; }
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #e882e8;
+  box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.6);
+  /* offset-x | offset-y | blur-radius | spread-radius  | color */
+  border-radius: 50px; }
+
+/*Handles Main Content */
+.col-auto {
+  flex: 1;
+  align-items: center; }
+
+.hero-image {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto; }
+
+.hero-content {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%; }
+  .hero-content p {
+    font-family: "Open Sans", san-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #e0e0e0;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .hero-content h1 {
+    font-size: 1.5em;
+    line-height: 1.2em; }
+
+/* Handles Footer */
+footer {
+  margin-top: 30px; }
+  footer .icon-container {
+    flex: 1;
+    text-align: center; }
+
+/*--Handles Icon Style--*/
+.icon-style {
+  margin: 5px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  padding: 15px;
+  transition: color 1s; }
+
+i:hover {
+  color: #e882e8;
+  cursor: pointer; }
+
+/* Responsivenes Desktop & Tablet */
+@media screen and (min-width: 640px) {
+  body {
+    max-height: 100%;
+    background: center/cover no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .hero-image {
+    max-width: 100%; }
+  .hero-content {
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 100%; }
+    .hero-content h1 {
+      font-size: 3em; }
+    .hero-content p {
+      font-size: 24px; }
+  /* Handles Footer */
+  footer {
+    display: flex; }
+    footer .icon-container {
+      flex: 1;
+      text-align: right; } }
+
+@media screen and (width: 768px) and (orientation: portrait) {
+  body {
+    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+  .main-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center; }
+  .hero-image {
+    max-width: 100%; }
+  .hero-content {
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 100%; }
+    .hero-content h1 {
+      font-size: 3em; }
+    .hero-content p {
+      font-size: 2em; } }
+
+@media screen and (width: 1024px) and (orientation: landscape) {
+  body {
+    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+  .main-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center; }
+  .hero-image {
+    max-width: 100%; }
+  .hero-content {
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 100%; }
+    .hero-content h1 {
+      font-size: 2em; }
+    .hero-content p {
+      font-size: 24px; } }
+
+@media screen and (width: 1024px) and (orientation: portrait) {
+  body {
+    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+  .main-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center; }
+  .hero-image {
+    max-width: 100%; }
+  .hero-content {
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 100%; }
+    .hero-content h1 {
+      font-size: 4em; }
+    .hero-content p {
+      font-size: 24px; } }
+
+@media screen and (width: 1366px) and (orientation: landscape) {
+  body {
+    background: top/contain no-repeat fixed #674baf url(/assets/img/bg-desktop.svg); }
+  .main-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center; } }
+/*# sourceMappingURL=style.css.map */
