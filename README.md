@@ -7,6 +7,7 @@
 ## The challenge
 
 Frontend Mentor - Huddle Landing Page
+
 Frontend Mentor - Ping Coming Soon Page
 
 Design preview for the Huddle Landing Page coding challenge(./design/desktop-preview.jpg)
