@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.3em;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px;
+  text-align: center; }
+
+.logo {
+  padding: 5px;
+  width: 4em; }
+
+h1 {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 10px 0;
+  margin: 10px 0; }
+  h1 span {
+    font-weight: 700; }
+
+p {
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #303030; }
+
+.input {
+  margin: 20px 0; }
+
+.form-control {
+  margin: 20px 0 30px 0; }
+  .form-control input {
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 50px;
+    border: solid 1px #c2d3ff; }
+    .form-control input::placeholder {
+      color: #c2d3ff; }
+  .form-control #message {
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: 600; }
+  .form-control button {
+    text-decoration: none;
+    font-weight: 600;
+    background: #4f7df3;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgba(79, 125, 243, 0.2); }
+
+.hero-image {
+  width: 100%;
+  margin-bottom: 50px; }
+  @media only screen and (min-width: 620px) {
+    .hero-image {
+      width: 80%; } }
+
+footer {
+  margin-bottom: 1px;
+  padding: 10px; }
+  footer .icons {
+    margin: 10px; }
+    footer .icons i {
+      padding: 10px;
+      border: solid 1px #c2d3ff;
+      border-radius: 100%; }
+  footer p {
+    font-size: 0.9rem;
+    color: #cecece; }
+
+.fa {
+  color: #4f7df3; }
+
+@media only screen and (min-width: 620px) {
+  h1 {
+    font-size: 3em;
+    padding: 20px 0; }
+  p {
+    font-size: 1.5em;
+    font-weight: 300; }
+  .form-control {
+    display: flex;
+    align-items: baseline;
+    justify-content: center; }
+    .form-control .input {
+      flex-basis: 70%;
+      display: block;
+      margin-right: 20px; }
+      .form-control .input input::placeholder {
+        font-size: 1.3em; }
+    .form-control button {
+      padding: 15px 20px;
+      flex-basis: 20%; } }
+/*# sourceMappingURL=style.css.map */

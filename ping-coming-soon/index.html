@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <title>Frontend Mentor | Ping-Coming-Soon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+        <!-- CSS File -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/font-awesome.css">
+    </head>
+
+    <body>
+        <header>
+            <!--Logo Image-->
+            <img class="logo" src="./assets/img/logo.svg" alt="">
+        </header>
+        <main>
+            <!--Main Content-->
+            <h1>We are launching <span>soon!</span></h1>
+            <p>Subscribe and get notified</p>
+            <form class="form-control">
+                <div class="input">
+                <input type="email" name="email" id="email" placeholder="Your email address.." required>
+                <span id="message"></span>
+                </div>
+                <button type="button" onclick="validateForm()">Notify Me</button>       
+            </form>
+        
+            <img class="hero-image" src="./assets/img/illustration-dashboard.png" alt="Hero-Image">
+        </main>
+        <footer>
+            <!--Social Media-->
+            <div class="icons">
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>&copy; Copyright Ping. All rights reserved.</p>
+        </footer>
+        <!-- JavaScript File -->
+        <script>
+            function validateForm() {
+                    var email, text;
+
+                    // Get the value of the input field with id="numb"
+                    email = document.getElementById("email").value;
+
+                    if (email=="") {
+                        text = "Please provide a valid email address";
+                        document.getElementById("message").style.color = "#ff9494";
+                    } else {
+                        text = "Email Accepted";
+                        document.getElementById("message").style.color = "#4bb543";
+                    }
+                    document.getElementById("message").innerHTML = text;
+                }
+
+        </script>
+    </body>
+
+</html>
